@@ -9,6 +9,10 @@ Freescribe is a web app that allows users to transcribe audio by directly record
 - **Audio Transcription:** Record audio directly from your microphone or upload .mp3 files to convert speech to text.
 - **Language Translation:** Translate transcribed text into multiple languages using state-of-the-art machine learning models.
 
+## Live Demo
+
+Check out the live demo of the application [here](https://freescribee.netlify.app/).
+
 ## Technologies Used
 
 - **Transcription Model:** [openai/whisper-tiny.en](https://github.com/openai/whisper)
