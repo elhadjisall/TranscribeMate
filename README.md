@@ -1,6 +1,6 @@
 # Freescribe
 
-Freescribe is a web app that allows users to transcribe audio by directly recording from a microphone or by uploading custom .mp3 files. The transcribed text can then be translated into different languages using machine learning models.
+Freescribe is a React Based web application that allows users to transcribe audio by directly recording from a microphone or by uploading custom .mp3 files. The transcribed text can then be translated into different languages using machine learning models.
 
 ![Homepage Screenshot](./src/assets/Screenshot%202024-07-26%20184848.png)  
 
@@ -15,8 +15,10 @@ Check out the live demo of the application [here](https://freescribee.netlify.ap
 
 ## Technologies Used
 
-- **Transcription Model:** [openai/whisper-tiny.en](https://github.com/openai/whisper)
-- **Translation Model:** [Xenova/nllb-200-distilled-600M](https://github.com/Xenova/nllb-200-distilled-600M)
+- React.js
+- Tailwind CSS
+- **Transcription ML Model:** [openai/whisper-tiny.en](https://github.com/openai/whisper)
+- **Translation ML Model:** [Xenova/nllb-200-distilled-600M](https://github.com/Xenova/nllb-200-distilled-600M)
 
 ## Installation
 
