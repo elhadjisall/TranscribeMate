@@ -1,0 +1,38 @@
+# Freescribe
+
+Freescribe is a web app that allows users to transcribe audio by directly recording from a microphone or by uploading custom .mp3 files. The transcribed text can then be translated into different languages using machine learning models.
+
+![Homepage Screenshot](link_to_screenshot)  <!-- Replace 'link_to_screenshot' with the actual URL of the screenshot -->
+
+## Features
+
+- **Audio Transcription:** Record audio directly from your microphone or upload .mp3 files to convert speech to text.
+- **Language Translation:** Translate transcribed text into multiple languages using state-of-the-art machine learning models.
+
+## Technologies Used
+
+- **Transcription Model:** [openai/whisper-tiny.en](https://github.com/openai/whisper)
+- **Translation Model:** [Xenova/nllb-200-distilled-600M](https://github.com/Xenova/nllb-200-distilled-600M)
+
+## Installation
+
+To get a local copy up and running, follow these simple steps:
+
+1. Clone the repository
+   ```sh
+   git clone https://github.com/your_username/Freescribe.git
+
+2. Navigate to the project director
+   ```sh
+   cd Freescribe
+
+3. Install dependencies
+   ```sh
+   npm install
+
+4. Run the application
+   ```sh
+   npm start
+
+## Usage
+
