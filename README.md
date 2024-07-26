@@ -2,7 +2,7 @@
 
 Freescribe is a web app that allows users to transcribe audio by directly recording from a microphone or by uploading custom .mp3 files. The transcribed text can then be translated into different languages using machine learning models.
 
-![Homepage Screenshot](link_to_screenshot)  <!-- Replace 'link_to_screenshot' with the actual URL of the screenshot -->
+![Homepage Screenshot](./src/assets/Screenshot%202024-07-26%20184848.png)  
 
 ## Features
 
@@ -36,3 +36,11 @@ To get a local copy up and running, follow these simple steps:
 
 ## Usage
 
+1. Transcribing Audio:
+
+- Click on the microphone icon to start recording audio directly from your browser.
+- Alternatively, upload a .mp3 file from your device.
+
+2. Translating Text:
+
+- After transcription, select the desired language to translate the text.
