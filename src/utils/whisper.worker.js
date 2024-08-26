@@ -1,7 +1,8 @@
 import { pipeline, env } from "@xenova/transformers";
+env.allowLocalModels = false;
 import { MessageTypes } from "./presets";
 
-env.allowLocalModels = false;
+
 class MyTranscriptionPipeline {
   static task = "automatic-speech-recognition";
   static model = "openai/whisper-tiny.en";
