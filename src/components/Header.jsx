@@ -5,7 +5,7 @@ export default function Header() {
     p-4"
     >
       <a href="/"><h1 className="font-medium">
-        Free<span className="text-blue-400 bold">Scribe</span>
+        Voice<span className="text-blue-400 bold">Verse</span>
       </h1></a>
       <a href="/" className="flex items-center gap-2
       specialBtn px-3 text-sm py-2 rounded-lg

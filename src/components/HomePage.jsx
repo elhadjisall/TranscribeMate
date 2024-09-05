@@ -76,7 +76,7 @@ export default function HomePage(props) {
         className="font-semibold text-5xl sm:text-6xl
         md:text-7xl"
       >
-        Free<span className="text-blue-400 bold">Scribe</span>
+        Voice<span className="text-blue-400 bold">Verse</span>
       </h1>
       <h3 className="font-medium md:text-lg">
         Record <span className="text-blue-400">&rarr;</span>Transcribe
