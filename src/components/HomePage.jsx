@@ -76,17 +76,17 @@ export default function HomePage(props) {
         className="font-semibold text-5xl sm:text-6xl
         md:text-7xl"
       >
-        Voice<span className="text-blue-400 bold">Verse</span>
+        Transcribe<span className="text-green-400 bold">Mate</span>
       </h1>
       <h3 className="font-medium md:text-lg">
-        Record <span className="text-blue-400">&rarr;</span>Transcribe
-        <span className="text-blue-400">&rarr;</span>Translate
+        Record <span className="text-green-400">&rarr;</span>Transcribe
+        <span className="text-green-400">&rarr;</span>Translate
       </h3>
       <button
         onClick={recordingStatus === 'recording' ? stopRecording : startRecording} className="flex specialBtn px-4 py-2 rounded-xl items-center text-base justify-between gap-4 mx-auto
       w-72 max-w-full my-4"
       >
-        <p className="text-blue-400">{recordingStatus ==='inactive'? 'Record' : `Stop recording`}</p>
+        <p className="text-green-400">{recordingStatus ==='inactive'? 'Record' : `Stop recording`}</p>
         <div className="flex items-center gap-2">
           {duration !== 0 && (
             <p className="text-sm">{duration}s</p>
@@ -95,7 +95,7 @@ export default function HomePage(props) {
         </div>
       </button>
       <p className="text-base">
-        Or <label className="text-blue-400 cursor-pointer hover:text-blue-600 duration-200">
+        Or <label className="text-green-400 cursor-pointer hover:text-green-600 duration-200">
            upload <input onChange={(e) => {
             const tempFile = e.target.files[0]
             setFile(tempFile)
@@ -103,7 +103,7 @@ export default function HomePage(props) {
         </label>
         a mp3 file
       </p>
-      <p className="italic text-slate-400">Free now free forever</p>
+      <p className="italic text-slate-400">TranscribeMate: available now, free forever</p>
     </main>
   );
 }

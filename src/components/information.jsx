@@ -87,7 +87,7 @@ export default function Information(props) {
         className="font-semibold text-4xl sm:text-5xl
         md:text-6xl whitestrap-now"
       >
-        Your <span className="text-blue-400 bold ">Transcription</span>
+        Your <span className="text-green-400 bold ">Transcription</span>
       </h1>
 
       <div
@@ -99,8 +99,8 @@ export default function Information(props) {
           className={
             "px-4 duration-200 py-1  " +
             (tab === "transcription"
-              ? "bg-blue-300 text-white"
-              : " text-blue-400 hover:text-blue-600")
+              ? "bg-green-300 text-white"
+              : " text-green-400 hover:text-green-600")
           }
         >
           Transciption
@@ -110,8 +110,8 @@ export default function Information(props) {
           className={
             "px-4 duration-200 py-1 " +
             (tab === "translation"
-              ? "bg-blue-300 text-white"
-              : " text-blue-400 hover:text-blue-600")
+              ? "bg-green-300 text-white"
+              : " text-green-400 hover:text-green-600")
           }
         >
           Translation
@@ -137,13 +137,13 @@ export default function Information(props) {
       <div className="flex items-center gap-4 mx-auto">
         <button onClick={handleCopy}
           title="Copy"
-          className="bg-white hover:text-blue-500 duration-200 text-blue-300 px-2 aspect-square grid place-items-center rounded"
+          className="bg-white hover:text-green-500 duration-200 text-green-300 px-2 aspect-square grid place-items-center rounded"
         >
           <i className="fa-solid fa-copy"></i>
         </button>
         <button onClick={handleDownload}
           title="Download"
-          className="bg-white hover:text-blue-500 duration-200 text-blue-300 px-2 aspect-square grid place-items-center rounded"
+          className="bg-white hover:text-green-500 duration-200 text-green-300 px-2 aspect-square grid place-items-center rounded"
         >
           <i className="fa-solid fa-download"></i>
         </button>
