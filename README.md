@@ -1,4 +1,4 @@
-# VoiceVerse
+# TranscribeMate
 
 TranscribeMate is a React Based web application that allows users to transcribe audio by directly recording from a microphone or by uploading custom .mp3 files. The transcribed text can then be translated into different languages using machine learning models.
 
