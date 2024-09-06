@@ -11,7 +11,7 @@ TranscribeMate is a React Based web application that allows users to transcribe 
 
 ## Live Demo
 
-Check out the live demo of the application [here](https://freescribee.netlify.app/).
+Check out the live demo of the application [here](https://main--tangerine-bubblegum-c37a8f.netlify.app/).
 
 ## Technologies Used
 
@@ -26,7 +26,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/your_username/Freescribe.git
+   git clone https://github.com/your_username/TranscribeMate.git
 
 2. Navigate to the project director
    ```sh
