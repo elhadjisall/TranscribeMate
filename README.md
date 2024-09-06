@@ -11,7 +11,7 @@ TranscribeMate is a React Based web application that allows users to transcribe 
 
 ## Live Demo
 
-Check out the live demo of the application [here](https://main--tangerine-bubblegum-c37a8f.netlify.app/).
+Check out the live demo of the application [here](https://transcribemate.netlify.app).
 
 ## Technologies Used
 
